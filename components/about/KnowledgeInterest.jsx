@@ -18,7 +18,7 @@ const KnowledgeInterest = () => {
     {
       id: 2,
       colClass: "right",
-      title: "Interests",
+      title: "Hobbies",
       content: [
         " Selfhosting, Homelab",
         " Robotics, CNC Machinery",

@@ -8,9 +8,9 @@ const Skills = () => {
       colClass: "left",
       title: "Programming Skills",
       content: [
-        " Javascript, HTML, CSS",
+        "React, NextJS, Javascript, HTML, CSS",
         " C++, C",
-        " Java",
+        " Java, Swift",
         " Arm Assembly",
         " Python",
       ],
@@ -20,11 +20,11 @@ const Skills = () => {
       colClass: "right",
       title: "Hack Tools",
       content: [
-        " Powershell, Active Directory",
+        " Powershell, Bash, Active Directory",
         " Burp Suite",
         " Metasploit, C2 Frameworks",
         " Responder, Bloodhound",
-        " Hashcat, John"
+        " Hashcat, JtR "
       ],
     },
   ];

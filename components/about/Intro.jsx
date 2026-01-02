@@ -8,18 +8,19 @@ const Intro = () => {
     text: (
       <>
         <p>
-          Hi, my name is Augustine Solis and after graduating from University 
-          I have been studying a variety of Offensive Security topics with the
-           goal of taking the OSCP and eventually attaining a OSCE3 certification.
-            Mostly to get a nifty little coin.
+        Hi, I'm Augustine Solis. After graduating from university, I dove deep into 
+        Offensive Security, studying through certifications, learning paths and blogs. 
+        Hack the Box has been my playground for honing my skills in penetration testing
+        working towards the OSE3 certification. I am currently working on the OSEP and 
+        CRTO certifications.
         </p>
         <p>
-          In my free time I enjoy gaming, modifying all kinds of vehicles, setting up
-          automated systems, making robots build other robots or learning about new
-           computing topics. And a bunch of other random things involving technical
-          or artistic fabrication. I have too many hobbies and need to get it under 
-          control. Or get a couple more who knows.
+        When I'm not breaking into (virtual) systems, I’m probably modifying vehicles, 
+        setting up automated systems, or experimenting with robotics. I also enjoy gaming, exploring new computing topics, 
+        and dabbling in all kinds of technical and artistic fabrication.
         </p>
+
+
       </>
     ),
   };

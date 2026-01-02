@@ -34,7 +34,7 @@ const Home = () => {
             </h4>
 
             <p className="job">
-                Just some guy based in Texas trying his best to learn about how things are made and why they work. Hopefully making a few of his own things along the way.
+            "Texas-based builder, breaker, and lifelong learner—on a journey to understand how things work and create something meaningful along the way."
             </p>
             {/* END JOB */}
             <Social />

@@ -38,3 +38,6 @@ next-env.d.ts
 # Exclude the Dockerfile and docker-compose.yml
 Dockerfile
 docker-compose.yml
+
+# nginx
+nginx.conf

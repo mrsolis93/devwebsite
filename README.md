@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Deploying with Docker
+
+- Build the docker image: docker build -t mrsolis93/devwebsite-app:v1.0 .
+- Push the docker image to the hub from personal computer(change tag if necessary): docker push mrsolis93/devwebsite-app:v1.0
+- On VPS, update, install docker, docker-compose, nginx, certbot
+
+    - 
+    - sudo apt install certbot python3-certbot-nginx
+    - sudo certbot --nginx -d your-domain.com
+    - sudo ufw allow 'Nginx Full'
+
+- On VPS login to docker: docker login
+- On VPS pull the docker image from the hub(change version if necessary): docker mrsolis/devwebsite-app:v1.01
+- On VPS run the docker image: docker run -d --name website mrsolis/devwebsite-app:v1.01
+
+
+
 ## Getting Started
 
 First, run the development server:

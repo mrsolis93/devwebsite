@@ -7,20 +7,16 @@ const PersonalInfo = () => {
       colClass: "left",
       info: [
         {
-          id: 1,
-          name: "Age",
-          content: "30",
+          id: 3,
+          name: "Email",
+          content: "augustine.solis02@gmail.com",
         },
         {
           id: 2,
           name: "Nationality",
           content: "USA",
         },
-        {
-          id: 3,
-          name: "Email",
-          content: "augustine.solis02@gmail.com",
-        },
+
       ],
     },
     {
@@ -37,10 +33,11 @@ const PersonalInfo = () => {
           name: "Study",
           content: "BS in Computer Science",
         },
+        
         {
           id: 3,
           name: "Certs",
-          content: "OSCP (In Progress)",
+          content: "Comptia Security+, Offensive Security OSCP, Hack the Box CWES(Coursework Finished - Exam Pending), Offensive Security OSEP(In Progress), Certified Red Team Operator(CRTO)(In Progress)",
         },
         
       ],
